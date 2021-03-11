@@ -23,7 +23,7 @@ app.set('view engine', 'hbs');
 // Initiate API
 app.use("/", user);
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 4001;
 app.listen(port, () => {
     console.log("Connected to port " + port);
 });
